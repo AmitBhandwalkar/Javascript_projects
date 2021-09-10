@@ -1,0 +1,39 @@
+body{
+    background-color:  #ffffff;
+}
+.main-con{
+    margin-top: 30px;
+}
+.typeing-area{
+    margin-top: 80px;
+}
+.text-area{
+  font-size: 30px;
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+}
+.letters-span{
+    display: inline-block;    
+}
+.current-letter{
+    color: red;
+}
+.last-letter4{
+    color:#8c8c8c;
+}
+.last-letter2{
+    color: #bfbfbf;
+}
+.last-letter1{
+    color: #e6e6e6;
+}
+.last-letter{
+    color: #f2f2f2;
+}
+.past-letters4{
+    color: #bfbfbf;
+}
+.past-letters2{
+    color: #e6e6e6;
+}

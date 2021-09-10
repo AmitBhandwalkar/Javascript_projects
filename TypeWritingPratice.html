@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+          
+     <!-- Font Awesome w3schools -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                        <!-- Custom CSS -->
+    <link rel="stylesheet" href="TypeWritingPratice.css">
+
+    <title>Type Writing Pratice</title>
+  </head>
+  <body>
+                 <!-- Custom JS -->
+    <script src="TypeWritingPratice.js"></script>
+
+    <div class="container main-con">       
+
+       <div class="row mt-8">
+        <div class="col-md-6 offset-md-3">
+                    <!-- menu-Row Start-->
+          <div class="row">
+                    
+            <div class="col-md-2 text-center">
+              <h5 id="time_field"><i class="fa fa-hourglass-1"></i>00:00</h5>
+               <hr>
+              <h5>Time</h5>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <h5 id="lettersMin_firld"><i class="fa fa-bolt"></i>0</h5>
+                 <hr>
+                <h5>Letters/min</h5>
+            </div>
+
+            <div class="col-md-2 text-center">
+                <h5 id="errors_field"><i class="fa fa-close"></i>0</h5>
+                 <hr>
+                <h5>Errors</h5>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <h5 id="errorsRate_field">0%</h5>
+                 <hr>
+                <h5>Errors-Rate</h5>
+            </div>
+
+            <div class="col-md-2 text-center">
+                <h5 id="lastKey_field">____</h5>
+                 <hr>
+                <h5>Last-Key</h5>
+            </div>
+
+          </div>
+               <!-- menu-Row End-->
+              
+           <!-- Typeing text area  start -->
+           <div class="row typeing-area">
+            <div class="col-2"></div>
+            <div class="col-10">
+             <span class="text-area" id="textArea">
+               <span id="past_let6"></span>
+               <span id="past_let5"></span>
+               <span id="past_let4"></span>
+               <span id="past_let3"></span>  
+               <span id="past_let2"></span>
+               <span id="past_let1"></span>
+               
+               <span id="current_let" class="text-center"></span>
+
+               <span id="next_let1"></span>
+               <span id="next_let2"></span>
+               <span id="next_let3"></span>
+               <span id="next_let4"></span>
+               <span id="next_let5"></span>
+               <span id="next_let6"></span>
+               <span id="next_let7"></span>
+               <span id="next_let8"></span>
+               <span id="next_let9"></span>
+               <span id="next_let10"></span>
+               <span id="next_let11"></span>
+               <span id="next_let12"></span>
+               <span id="next_let13"></span>
+               <span id="next_let14"></span>
+               <span id="next_let15"></span>
+               <span id="next_let16"></span>
+               <span id="next_let17"></span>
+               <span id="next_let18"></span>
+               <span id="next_let19"></span>
+               <span id="next_let20"></span>
+               <span id="next_let21"></span>
+               <span id="next_let22"></span>
+             </span>
+            </div>
+           </div> 
+        <!-- Typeing text area  End --> 
+            <!-- Refresh button -->
+           <div class="text-center">
+               <button class="btn btn-danger" id="Refresh_button" onclick="Refresh()">Start Agian</button>
+
+           </div>
+
+
+        </div>
+       </div>
+
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+  </body>
+</html>
